@@ -8,6 +8,9 @@ public class SparsearrayPro {
         System.out.println("普通数组转稀疏数组");
         int[][] sparseArray = sparseArray(array);
         printArray(sparseArray);
+        System.out.println("稀疏数组变普通数组");
+        int[][] commonArray = toArray(sparseArray);
+        printArray(commonArray);
     }
 
     /*
@@ -84,8 +87,20 @@ public class SparsearrayPro {
         return spareArray;
     }
 
+    //稀疏数组转普通数组
     public static int[][] toArray(int[][] sparseArray) {
+        int rowNum = sparseArray[0][0];
+        int colNum = sparseArray[0][1];
+        int valueNum = sparseArray[0][2];
 
-        return null;
+        int [][] array = new int[rowNum][colNum];
+
+        for (int i = 1; i < valueNum+1; i++) {
+            int row = sparseArray[i][0];
+            int col = sparseArray[i][1];
+            int value = sparseArray[i][2];
+            array[row][col] = value;
+        }
+        return array;
     }
 }
