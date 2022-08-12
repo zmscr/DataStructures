@@ -41,9 +41,9 @@ public class Sparsearray {
             for (int j = 0; j < 11; j++) {
                 if (chessArr1[i][j] != 0) {
                     count++;
-                    sparseArr[count][0] = i;
-                    sparseArr[count][1] = j;
-                    sparseArr[count][2] = chessArr1[i][j];
+                    sparseArr[count][0] = i; //该非0数所在行的位置
+                    sparseArr[count][1] = j; //该非0数所在列的位置
+                    sparseArr[count][2] = chessArr1[i][j]; //该非0数所在的位置
                 }
             }
         }
