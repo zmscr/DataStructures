@@ -13,3 +13,11 @@
 ## 2.队列
 
 [环形队列java实现](https://github.com/zmscr/DataStructures/blob/main/com/zmscr/queue/环形队列实现.md)
+
+
+
+
+
+## 3.链表
+
+[单链表无序遍历](https://github.com/zmscr/DataStructures/blob/main/com/zmscr/linkedlist/无序单链表实现.md)
