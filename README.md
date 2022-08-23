@@ -20,4 +20,4 @@
 
 ## 3.链表
 
-[单链表无序遍历](https://github.com/zmscr/DataStructures/blob/main/com/zmscr/linkedlist/无序单链表实现.md)
+[单链表实现](https://github.com/zmscr/DataStructures/blob/main/com/zmscr/linkedlist/无序单链表实现.md)
