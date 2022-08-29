@@ -12,7 +12,7 @@
 
 ## 2.队列
 
-[环形队列java实现](https://github.com/zmscr/DataStructures/blob/main/com/zmscr/queue/环形队列实现.md)
+[环形队列java实现](https://github.com/zmscr/DataStructures/blob/main/com/zmscr/queue/%E7%8E%AF%E5%BD%A2%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0.md)
 
 
 
